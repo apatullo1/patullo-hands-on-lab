@@ -1,7 +1,23 @@
 defaultStorageMapping: WORK
 installedPackages: {}
 jobs: {}
-locations: {}
+locations:
+  SRC:
+    mappingDefinitions:
+      "15":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+      "16":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+  WORK:
+    mappingDefinitions:
+      "15":
+        database: PATULLO
+        schema: WORKTEST
+      "16":
+        database: PATULLO
+        schema: WORKPROD
 macros: {}
 packages: {}
 projects: {}
